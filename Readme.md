@@ -36,11 +36,13 @@ Addresses following problems:
 
 ## How to use:
 
-1. [Install node.js and npm](http://howtonode.org/how-to-install-nodejs).
-2. install node-mime: `npm install mime`
+1. [Install node.js](http://howtonode.org/how-to-install-nodejs).
+2. install npm: `curl http://npmjs.org/install.sh | sh`
 3. Clone the TermKit repository: `git clone git@github.com:unconed/TermKit.git --recursive`
-4. Run the NodeKit daemon: `cd Node; node nodekit.js`
-5. Unzip and run the Mac app in Build/TermKit.zip
+4. Change directory to Node: `cd Node`
+5. install node-mime: `npm install mime`
+6. Run the NodeKit daemon: `node nodekit.js`
+7. Unzip and run the Mac app in Build/TermKit.zip
 
 *Tip:* Press ⌥⌘C to access the WebKit console.
 
